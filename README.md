@@ -1,2 +1,4 @@
 # BDD-Website-Project
-Website for a small office
+PHP website to manage a database built for a psychologist
+
+The code was programmed and tested using WAMP
