@@ -1,0 +1,227 @@
+html{background-color: #C0C5C4;}
+
+header, main{
+    max-width: 75%;
+    margin: auto;
+    font-family: "verdana",geneva, sans-serif;
+  }
+
+#navbar{
+		background-color: #dddddd;
+		list-style-type: none;
+    border-radius: 20px;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+}
+
+.navbar_li{
+	 	display: inline;
+	 	float: left;
+}
+
+.navbar_a{
+		display: block;
+		padding: 8px;
+		background-color: black;
+}
+
+.navbar_li .navbar_a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar_li .navbar_a:hover{
+  background-color: #424242;
+}
+
+#Recherche{
+  margin-top: 40px;
+  margin-left: 20px;
+  width: 50%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid grey; 
+}
+
+#formAddConsultation{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#button{
+  margin-top: 40px;
+  margin-left: 20px;
+  flex-grow: 1;
+  background-color: #58ACFA;
+  border-radius: 5px;
+  border: 1px solid grey; 
+  box-shadow: 2px 2px grey;
+}
+
+#button:hover{
+  background-color: #CEE3F6;
+}
+
+#form{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(102, 153, 153,0.2);
+  margin-top: 50px;
+  border: 1px solid grey;
+  border-radius: 40px;
+  padding: 25px;
+  box-shadow: 3px 3px black;
+  align-items: center;
+}
+
+.infoclient{
+  padding: 10px;
+  background-color: rgb(128, 153, 51,0.4);
+  border: 1px solid grey;
+  border-radius: 40px;
+}
+
+.infoprofession{
+  padding: 10px;
+  background-color: rgb(179, 236, 255,0.4);
+  border: 1px solid grey;
+  border-radius: 40px;
+}
+
+#tab{
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255,0.2);
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 35px;
+  box-shadow: 3px 3px black;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#button{
+  padding:20px;
+  margin: 10px;
+  width: 20%;
+  background-color: #58ACFA;
+  border-radius: 5px;
+  border: 1px solid grey; 
+  box-shadow: 2px 2px grey;
+  text-decoration: none;
+  text-align: center;
+  color:black;
+}
+
+#button:hover{
+  background-color: #CEE3F6;
+}
+
+#formInscription{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.input{
+  padding:20px;
+  margin: 10px;
+  border: 1px solid grey; 
+  border-radius: 5px;
+}
+
+#buttonInscription{
+  padding:20px;
+  margin: 10px;
+  width: 20%;
+  background-color: #58ACFA;
+  border-radius: 5px;
+  border: 1px solid grey; 
+  box-shadow: 2px 2px grey;
+}
+
+#buttonInscription:hover{
+  background-color: #CEE3F6;
+}
+
+#planning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #e6f9ff;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+.planningCaseHead{
+  border: 1px solid lightgrey;
+  text-align: center;
+  background-color: #81F7BE;
+}
+
+.planningCase{
+  border: 1px solid lightgrey;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+
+#planning1erecase{
+  border:none;
+  width: 150px;
+  height: 50px;
+  background-color: #e6f9ff;
+}
+
+#mainBox{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #90D09C;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+#headerPlanning{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #90D09C;
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.buttonPlanning{
+  padding:20px;
+  margin: 10px;
+  width: 10%;
+  background-color: #339933;
+  border-radius: 5px;
+  border: 1px solid grey; 
+  box-shadow: 2px 2px grey;
+}
+
+.buttonPlanning:hover{
+  background-color: #8cd98c;
+}
